@@ -1,0 +1,17 @@
+dataset:
+  name: PTB-XL
+  version: "1.0.3"
+  base_url: "https://physionet.org/files/ptb-xl/1.0.3/"
+  raw_dir: "data/raw/ptb-xl/1.0.3"
+  sampling_rate: 100
+  expected_records: 21799
+  leads: 12
+  samples_per_record: 1000
+  labels: [NORM, CD, HYP, MI, STTC]
+  train_folds: [1, 2, 3, 4, 5, 6, 7, 8]
+  validation_fold: 9
+  test_fold: 10
+download:
+  workers: 8
+  retries: 5
+  timeout_seconds: 90

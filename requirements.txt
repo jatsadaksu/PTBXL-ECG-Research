@@ -1,0 +1,16 @@
+﻿# Python 3.12.10
+# Verified installed package versions (Windows 11)
+
+numpy==2.5.4
+pandas==3.0.6
+scipy==1.18.1
+scikit-learn==1.9.1
+wfdb==4.3.1
+PyYAML==6.0.3
+matplotlib==3.11.2
+Pillow==12.3.0
+tqdm==4.70.1
+
+# PyTorch CUDA 12.8 build
+torch==2.11.0+cu128
+requests==2.34.2
