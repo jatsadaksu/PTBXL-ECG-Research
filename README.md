@@ -23,6 +23,26 @@ NORM, MI, STTC, CD, and HYP.
 The original ECG recordings are not included in this repository.
 Users must obtain PTB-XL from its official distribution source.
 
+## Dataset Source and Citation
+
+This research uses the PTB-XL dataset, version 1.0.3, distributed through PhysioNet. The experiments use 12-lead ECG recordings sampled at 100 Hz and focus on five diagnostic superclasses: NORM, MI, STTC, CD, and HYP.
+
+The original dataset contains 21,799 ECG records. Following the study's diagnostic-label eligibility criteria, 21,388 records were retained for the experimental analysis.
+
+**Official dataset:** https://physionet.org/content/ptb-xl/1.0.3/
+
+**Dataset version DOI:** https://doi.org/10.13026/kfzx-aw45
+
+**Dataset license:** Creative Commons Attribution 4.0 International (CC BY 4.0).
+
+### Dataset References
+
+1. Wagner, P., Strodthoff, N., Bousseljot, R., Samek, W., & Schaeffter, T. (2022). *PTB-XL, a large publicly available electrocardiography dataset (version 1.0.3).* PhysioNet. https://doi.org/10.13026/kfzx-aw45
+
+2. Wagner, P., Strodthoff, N., Bousseljot, R.-D., Kreiseler, D., Lunze, F. I., Samek, W., & Schaeffter, T. (2020). PTB-XL, a large publicly available electrocardiography dataset. *Scientific Data, 7*, Article 154. https://doi.org/10.1038/s41597-020-0495-6
+
+The original ECG recordings are not redistributed in this repository. Users should obtain the dataset directly from PhysioNet and comply with its license and citation requirements.
+
 ## Repository Contents
 
 - `config/`: Dataset configuration.
